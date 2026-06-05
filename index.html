@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Portafolio Profesional | Luz Maria Garcia</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Segoe UI',sans-serif;
+    background:#f5f7f6;
+    color:#333;
+    line-height:1.7;
+}
+
+/* MENU */
+
+nav{
+    position:fixed;
+    top:0;
+    width:100%;
+    background:#1b5e20;
+    padding:15px;
+    z-index:1000;
+    box-shadow:0 2px 10px rgba(0,0,0,.15);
+}
+
+nav ul{
+    display:flex;
+    justify-content:center;
+    list-style:none;
+    gap:30px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:600;
+}
+
+nav a:hover{
+    color:#c8e6c9;
+}
+
+/* HEADER */
+
+header{
+    background:linear-gradient(135deg,#1b5e20,#4caf50);
+    color:white;
+    text-align:center;
+    padding:120px 20px 70px;
+}
+
+.foto-perfil{
+    width:260px;
+    height:260px;
+    object-fit:cover;
+    border-radius:50%;
+    border:8px solid white;
+    box-shadow:0 10px 30px rgba(0,0,0,.25);
+    margin-bottom:25px;
+}
+
+header h1{
+    font-size:3rem;
+}
+
+header p{
+    font-size:1.1rem;
+    margin-top:10px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:25px;
+    padding:15px 30px;
+    background:white;
+    color:#1b5e20;
+    text-decoration:none;
+    border-radius:10px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+}
+
+/* CONTENEDOR */
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    padding:50px 0;
+}
+
+.section{
+    background:white;
+    margin-bottom:25px;
+    padding:35px;
+    border-radius:15px;
+    box-shadow:0 3px 15px rgba(0,0,0,.08);
+}
+
+.section h2{
+    color:#1b5e20;
+    margin-bottom:20px;
+    border-bottom:3px solid #4caf50;
+    padding-bottom:10px;
+}
+
+/* CARDS */
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:#f8fff8;
+    border-left:5px solid #4caf50;
+    padding:20px;
+    border-radius:10px;
+}
+
+/* HABILIDADES */
+
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    gap:12px;
+}
+
+.skill{
+    background:#4caf50;
+    color:white;
+    padding:10px 18px;
+    border-radius:20px;
+}
+
+/* REDES */
+
+.social{
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+.social a{
+    background:#1b5e20;
+    color:white;
+    text-decoration:none;
+    padding:12px 18px;
+    border-radius:8px;
+    transition:.3s;
+}
+
+.social a:hover{
+    background:#4caf50;
+}
+
+/* FOOTER */
+
+footer{
+    background:#1b5e20;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:768px){
+
+nav ul{
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+header h1{
+    font-size:2rem;
+}
+
+.foto-perfil{
+    width:200px;
+    height:200px;
+}
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+<ul>
+<li><a href="#sobre-mi">Sobre mí</a></li>
+<li><a href="#formacion">Formación</a></li>
+<li><a href="#experiencia">Experiencia</a></li>
+<li><a href="#certificaciones">Certificaciones</a></li>
+<li><a href="#contacto">Contacto</a></li>
+</ul>
+</nav>
+
+<header>
+
+<img src="foto-luz.jpg" alt="Luz Maria Garcia" class="foto-perfil">
+
+<h1>Luz Maria Garcia</h1>
+
+<p>
+Estudiante de Administración Tecnológica<br>
+Tecnóloga en Gestión Administrativa<br>
+Técnica en Asistencia Administrativa
+</p>
+
+<a href="CV_Luz_Maria_Garcia.pdf" download class="btn">
+📄 Descargar Hoja de Vida
+</a>
+
+</header>
+
+<div class="container">
+
+<section class="section" id="sobre-mi">
+
+<h2>Acerca de mí</h2>
+
+<p>
+Soy estudiante de séptimo semestre de Administración Tecnológica y egresada como Tecnóloga en Gestión Administrativa y Técnica en Asistencia Administrativa. Me caracterizo por ser una persona responsable, analítica y comprometida con el logro de objetivos.
+</p>
+
+<br>
+
+<p>
+Poseo conocimientos en trade marketing, servicio al cliente, recepción, procesos administrativos y trabajo en equipo, aportando soluciones eficientes y orientadas a resultados.
+</p>
+
+</section>
+
+<section class="section">
+
+<h2>Información Personal</h2>
+
+<ul>
+<li><strong>Nombre:</strong> Luz Maria Garcia</li>
+<li><strong>Lugar de nacimiento:</strong> Sabanalarga, Antioquia</li>
+<li><strong>Teléfono:</strong> 3207394448</li>
+<li><strong>Correo:</strong> mariapaulisgarcia@gmail.com</li>
+</ul>
+
+</section>
+
+<section class="section" id="formacion">
+
+<h2>Formación Académica</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Administración Tecnológica</h3>
+<p>Estudiante de Séptimo Semestre.</p>
+</div>
+
+<div class="card">
+<h3>Tecnología en Gestión Administrativa</h3>
+<p>Titulación obtenida.</p>
+</div>
+
+<div class="card">
+<h3>Técnica en Asistencia Administrativa</h3>
+<p>Titulación obtenida.</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="section" id="experiencia">
+
+<h2>Experiencia Laboral</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Almacontact</h3>
+<p>Asesor Call Center.</p>
+</div>
+
+<div class="card">
+<h3>Grupo Familia</h3>
+<p>Aprendiz de Gestión Administrativa.</p>
+</div>
+
+<div class="card">
+<h3>Tax Coopebomba</h3>
+<p>Aprendiz de Asistencia Administrativa.</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<h2>Competencias</h2>
+
+<div class="skills">
+
+<span class="skill">Trade Marketing</span>
+<span class="skill">Servicio al Cliente</span>
+<span class="skill">Recepción</span>
+<span class="skill">Trabajo en Equipo</span>
+<span class="skill">Gestión Administrativa</span>
+<span class="skill">Comunicación</span>
+<span class="skill">Análisis</span>
+<span class="skill">Organización</span>
+
+</div>
+
+</section>
+
+<section class="section" id="certificaciones">
+
+<h2>Certificaciones</h2>
+
+<div class="cards">
+
+<div class="card">
+Tecnóloga en Gestión Administrativa
+</div>
+
+<div class="card">
+Técnica en Asistencia Administrativa
+</div>
+
+<div class="card">
+Curso de Inglés Básico
+</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<h2>Proyectos y Objetivos Profesionales</h2>
+
+<p>
+✔ Culminar mis estudios en Administración Tecnológica y continuar fortaleciendo mis conocimientos en gestión organizacional y servicio al cliente.
+</p>
+
+<br>
+
+<p>
+✔ Adquirir experiencia en cargos de liderazgo que me permitan coordinar equipos de trabajo y contribuir al crecimiento de las organizaciones.
+</p>
+
+</section>
+
+<section class="section" id="contacto">
+
+<h2>Redes Sociales</h2>
+
+<div class="social">
+
+<a href="#">
+<i class="fab fa-facebook-f"></i> Facebook
+</a>
+
+<a href="#">
+<i class="fab fa-instagram"></i> Instagram
+</a>
+
+<a href="#">
+<i class="fab fa-tiktok"></i> TikTok
+</a>
+
+</div>
+
+<br>
+
+<p><strong>Correo:</strong> mariapaulisgarcia@gmail.com</p>
+<p><strong>Celular:</strong> 3207394448</p>
+
+</section>
+
+</div>
+
+<footer>
+
+<p>
+© 2026 | Portafolio Profesional de Luz Maria Garcia
+</p>
+
+</footer>
+
+</body>
+</html>
